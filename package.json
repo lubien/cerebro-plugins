@@ -1,5 +1,5 @@
 {
-  "name": "cerebro-awesome",
+  "name": "cerebro-plugins",
   "version": "1.0.0",
   "description": "Awesome CerebroApp plugins",
   "author": "lubien <lubien1996@gmail.com>",
@@ -7,11 +7,18 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
+    "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
     "bulma": "^0.4.0",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^0.12.0",
+    "nprogress": "^0.2.0",
+    "string-similarity": "^1.1.0",
     "vue": "^2.2.2",
+    "vue-nprogress": "^0.1.5",
+    "vue-resource": "^1.2.1",
     "vue-router": "^2.2.0"
   },
   "devDependencies": {

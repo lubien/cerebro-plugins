@@ -5,10 +5,13 @@
 </template>
 
 <script>
-require('bulma/css/bulma.css')
-export default {
-  name: 'App'
-}
+  import 'bulma/css/bulma.css'
+  import 'nprogress/nprogress.css'
+  import 'font-awesome/css/font-awesome.css'
+
+  export default {
+    name: 'App'
+  }
 </script>
 
 <style>
@@ -18,5 +21,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+#nprogress .bar {
+  background-color: #3273DC;
+}
+
+#nprogress .spinner {
+  display: none;
 }
 </style>
