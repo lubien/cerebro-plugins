@@ -1,10 +1,10 @@
 # Cerebro Plugins
 
-> Cerebro quick plugin list 
+> Cerebro quick plugin list
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 yarn install
 
@@ -17,4 +17,4 @@ yarn run build
 
 ## License
 
-MIT © [Lubien](http://lubien.me)
+[MIT](LICENSE) © [Lubien](http://lubien.me)
